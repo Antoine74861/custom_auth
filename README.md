@@ -1,30 +1,35 @@
-# custom_auth
+# custom\_auth
 
-Un petit package Python pour stocker et accéder facilement à des identifiants.
+A small Python package to store and easily access credentials.
 
-> ⚠️ Les mots de passe sont stockés en clair dans un fichier `.py`. Ce n’est pas sécurisé, mais rapide à mettre en place pour un usage local simple.
+> ⚠️ Passwords are stored in plain text in a `.py` file. This is not secure, but quick to set up for simple local use.
 
 ## Installation
+
 ```bash
 pip install git+https://github.com/Antoine74861/custom_auth.git
 ```
 
-## Localisation
-Pour connaître l’emplacement du package et modifier les identifiants, ouvrir le fichier `db.py` :
+## Location
+
+To find the location of the package and edit the credentials, use:
+
 ```bash
 pip show custom_auth
 ```
 
-Le chemin affiché dans `Location` contient `custom_auth/db.py`, à modifier selon les besoins.
+The path shown in `Location` contains `custom_auth/db.py`, which you can modify as needed.
 
 ## Usage
+
 ```python
 from custom_auth import DB_PASSWORD
 
 print(DB_PASSWORD)
 ```
 
-## Désinstallation
+## Uninstallation
+
 ```bash
 pip uninstall custom_auth
 ```
