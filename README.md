@@ -2,7 +2,8 @@
 
 A small Python package to store and easily access credentials.
 
-> ⚠️ Passwords are stored in plain text in a `.py` file. This is not secure, but quick to set up for simple local use.
+> [!WARNING]
+> Passwords are stored in plain text in a `.py` file. This is not secure, but quick to set up for simple local use.
 
 ## Installation
 
